@@ -55,6 +55,13 @@ namespace ConsoleApp1
                     break;
             }
 
+            Coordinates c = new Coordinates(5, 10);
+            if (c.x > 0)
+            {
+                Coordinates c2 = c;
+                c2.x = 1;
+            }
+
             Console.ReadLine();
         }
 
