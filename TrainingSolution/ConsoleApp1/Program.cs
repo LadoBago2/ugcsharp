@@ -31,6 +31,9 @@ namespace ConsoleApp1
             tran1.Ccy = "GEL";
             tran1.ReceiverIban = "GE00BS000000011111";
             tran1.SenderIban = "GE00BS000000022222";
+            string s = tran1.ToString();
+            tran1 = null;
+            s = tran1.ToString();
 
             Transaction tran2 = tran1;
             tran2.Amouont = 6;
@@ -40,6 +43,7 @@ namespace ConsoleApp1
             else
                 Console.WriteLine("1 is not equal to 2");
 
+            Transaction.Field1 = 10;
 
             switch (tran1.Amouont)
             {
@@ -62,12 +66,31 @@ namespace ConsoleApp1
                 c2.x = 1;
             }
 
+            double distance; //= c.GetDistanceFrom(new Coordinates(7, 8));
+            c.GetDistanceFrom(new Coordinates(4, 3), out distance);
+
+            int b = 0;
+            inita(ref b);
+
+            bool b1 = b > 0 ? true : false;
+            b1 = b > 0;
+            
+            Transaction t3 = new Transaction();
+            initTran(ref t3);
+
             Console.ReadLine();
         }
 
-        static void foo()
+        static void inita(ref int a)
         {
-           // a = 4;
+           a = 4;
+        }
+
+        static void initTran(ref Transaction t)
+        {
+            t = new Transaction();
+            t.Amouont = 1;
+            t.Ccy = "GEL";
         }
     }
 }
