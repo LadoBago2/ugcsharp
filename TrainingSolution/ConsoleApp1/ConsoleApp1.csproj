@@ -46,6 +46,7 @@
     <Compile Include="Counter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
+    <Compile Include="Program3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transaction.cs" />
   </ItemGroup>

@@ -11,7 +11,7 @@ namespace ConsoleApp1
         private delegate int MyOp(int a, int b);
         private static MyOp d;
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             d = Add;
 
