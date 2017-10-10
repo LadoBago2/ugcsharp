@@ -71,7 +71,7 @@ namespace ConsoleApp1
             _Comparer = comparer;
         }
         #endregion
-        #region SortHelper.Sort
+        #region SortHelper.Sort - Bubble sort agorithm
         public void Sort()
         {
             for (int i = 0; i < A.Length; i++)
