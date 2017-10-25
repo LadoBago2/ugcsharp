@@ -9,7 +9,7 @@ namespace ConsoleApp1
 {
     class Program4
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Person[] personArray = new Person[] {
                 new Person("saxeli1", "gvari1"),
