@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class Program5
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Action<string, double> cout = new Action<string, double>((s, d) => Console.WriteLine("{0}'s summary area = {1:0.0000}", s, d));
 

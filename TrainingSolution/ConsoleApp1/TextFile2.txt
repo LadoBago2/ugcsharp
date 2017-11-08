@@ -1,0 +1,22 @@
+﻿<ArrayOfPerson>
+  <person>
+    <firstname>n1</firstname>
+    <surname>ln1</surname>
+  </person>
+  <person>
+    <firstname>n2</firstname>
+    <surname>ln2</surname>
+  </person>
+  <person>
+    <firstname>n3</firstname>
+    <surname>ln3</surname>
+  </person>
+  <person>
+    <firstname>n4</firstname>
+    <surname>ln4</surname>
+  </person>
+  <person>
+    <firstname>n5</firstname>
+    <surname>ln5</surname>
+  </person>
+</ArrayOfPerson>
