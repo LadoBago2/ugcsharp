@@ -10,7 +10,7 @@ namespace ConsoleApp1
 {
     class Program6
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             using (FileStream fs = File.Create("Text.txt"))
             {
