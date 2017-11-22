@@ -12,7 +12,7 @@ namespace ConsoleApp1
 
     class Program8
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             // synchronous method call
             // TakesAWhile(1, 3000);
